@@ -1,6 +1,6 @@
 {
-  "firstName": "Yaakov",
-  "lastName": "Chaikin",
-  "likesChineseFood": true,
-  "numberOfDisplays": 2 
+  "firstName": "Shamir",
+  "lastName": "Alavi",
+  "likesChineseFood": false,
+  "numberOfDisplays": 200 
 }

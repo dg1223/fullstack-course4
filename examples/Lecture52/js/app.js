@@ -1,12 +1,8 @@
-yaakovGreeter.sayHello();
-johnGreeter.sayHi();
+shamirGreeter.sayHello()
+johnGreeter.sayHi()
 
 // Immediately Invoked Function Expression
 // IIFE
-(function (name) {
-  console.log("Hello " + name);
-})("Coursera!");
-
-
-
-
+// (function (name) {
+// 	console.log("Hello " + name)
+// })("Coursera")

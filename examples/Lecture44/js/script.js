@@ -1,6 +1,9 @@
 // Default values
 function orderChickenWith(sideDish) {
-  sideDish = sideDish || "whatever!";
+  // if (sideDish === undefined) {
+  // 	sideDish = "whatever!"
+  // }
+  sideDish = sideDish || "whatever!"
   console.log("Chicken with " + sideDish);
 }
 

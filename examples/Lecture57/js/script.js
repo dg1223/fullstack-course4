@@ -8,15 +8,16 @@ document.addEventListener("DOMContentLoaded",
         
         // Call server to get the name
         $ajaxUtils
-          .sendGetRequest("data/name.txt", 
+          .sendGetRequest("/data/name.txt", 
             function (request) {
+              // responseText property holds the response 
+              // from the server
               var name = request.responseText;
 
               document.querySelector("#content")
                 .innerHTML = "<h2>Hello " + name + "!</h2>";
-            });
+            });     
 
-        
       });
   }
 );

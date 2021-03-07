@@ -1,11 +1,11 @@
-(function (window) {
-  var yaakovGreeter = {};
-  yaakovGreeter.name = "Yaakov";
-  var greeting = "Hello ";
-  yaakovGreeter.sayHello = function () {
-    console.log(greeting + yaakovGreeter.name);
-  }
+(function(window) {
+	var shamirGreeter = {}
+	shamirGreeter.name = "Shamir"
+	var greeting = "Hello "
+	shamirGreeter.sayHello = function () {
+		console.log(greeting + shamirGreeter.name)
+	}
 
-  window.yaakovGreeter = yaakovGreeter;
+	window.shamirGreeter = shamirGreeter
 
-})(window);
+})(window)

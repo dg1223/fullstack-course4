@@ -1,15 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8">    
+    <link rel="shortcut icon" href="#">
   </head>
 <body>
   <h1 id="title">Lecture 53</h1>
   
   <p>
     Say hello to 
-    <input id="name" type="text">
-    <button onclick="sayHello();">
+    <input onblur="sayHello();" id="name" type="text">
+    <button onClick="sayHello();" >
       Say it!
     </button>
   </p>
